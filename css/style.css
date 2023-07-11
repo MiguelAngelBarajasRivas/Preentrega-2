@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px;
+  padding: 10px 0px;
   text-decoration: none; }
 
 .titulos-nav {
@@ -26,8 +26,38 @@
 
 .header li {
   padding: 15px;
-  color: #8a8a8a;
-  text-decoration: none; }
+  color: #616161;
+  text-decoration: none;
+  list-style-type: none; }
+
+.row {
+  padding: 100px 0px; }
 
 .foto-melissa {
   height: 700px; }
+
+.contacto-melissa {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  align-items: center; }
+  .contacto-melissa h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 50px 0px;
+    color: #616161; }
+  .contacto-melissa h2 {
+    font-size: 20px;
+    padding: 20px 40px;
+    background-color: #616161;
+    color: white;
+    font-weight: normal;
+    margin: 20px 0px;
+    border-radius: 3px; }
+
+.redes-contacto img {
+  margin: 50px;
+  width: 70px; }

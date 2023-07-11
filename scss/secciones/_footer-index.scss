@@ -1,3 +1,33 @@
 .foto-melissa{
     height: 700px;
 }
+
+.contacto-melissa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    align-items: center;
+
+    h1{font-size: 60px;
+        font-weight: bold;
+        margin: 50px 0px;
+        color: rgb(97, 97, 97);
+    }
+
+    h2{font-size: 20px;
+        padding: 20px 40px;
+        background-color: rgb(97, 97, 97);
+        color: white;
+        font-weight: normal;
+        margin: 20px 0px;
+        border-radius: 3px;
+    }
+}
+
+.redes-contacto img{
+    margin: 50px;
+    width: 70px;
+}
